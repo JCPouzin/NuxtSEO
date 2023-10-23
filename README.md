@@ -3,7 +3,7 @@
 # Mise en Place d'un SEO Performant avec Nuxt
 
 # Table des Matières
-# Table des Matières
+
    - [Introduction](#introduction)
    - [La Sitemap](#la-sitemap)
    - [Gestion des Méta-Tags](#gestion-des-méta-tags)
@@ -15,7 +15,6 @@
 ## Introduction
   
 L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité d'un site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt offre de nombreuses fonctionnalités et techniques pour améliorer le SEO.
-<div id='sitemap'/>  
   
 ## La Sitemap
 
