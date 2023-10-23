@@ -3,6 +3,7 @@
 # Mise en Place d'un SEO Performant avec Nuxt
 
 *******
+
 Table des matières
 1. [Introduction] (#intro)
 2. [La SiteMap] (#sitemap)
@@ -10,6 +11,7 @@ Table des matières
 4. [Données structurées] (#datastruc)
 5. [Balise du corps] (#balise)
 6. [Intégration de CSS externe] (#CssExterne)
+
 *******
 
 <div id='intro'/>  
