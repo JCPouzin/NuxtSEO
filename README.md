@@ -78,7 +78,7 @@ export default {
 Dans cet exemple, je personalise dynamiquement le titre de la page et je définie des méta-tags tels que la description, les mots-clés et l'auteur pour améliorer le SEO et la visibilité dans les résultats de recherche. Chaque page nécessite une définition manuelle de ces méta-tags pour garantir un SEO optimal.
 
 
-# Données Structurées :
+## Données Structurées :
 
 Les données structurées améliorent la compréhension du contenu par les moteurs de recherche, ce qui peut entraîner l'affichage d'extraits enrichis dans les résultats de recherche, améliorant ainsi la visibilité.
 
@@ -111,7 +111,7 @@ Dans cet exemple, je définie des données structurées pour un événement en u
 Les données structurées peuvent également être utilisées pour d'autres types d'objets. Chaque type d'objet aura des balises structurées spécifiques à définir. Cependant, il est important de noter que la définition de données structurées nécessite une connaissance préalable des schémas de balisage appropriés.
 
 
-# Balises du Corps :
+## Balises du Corps :
 
 Les balises du corps permettent d'inclure des scripts et des balises à la fin du corps de la page, améliorant ainsi la performance de chargement. Elles sont utiles pour intégrer des scripts tiers et des outils de suivi.
 
@@ -152,7 +152,7 @@ Cependant, il est essentiel d'utiliser cette technique avec précaution. Trop de
 En utilisant ces techniques dans un projet Nuxt, vous pouvez optimiser votre SEO et améliorer la visibilité de votre site web dans les résultats de recherche.
 
   
-# Intégration de CSS Externe :
+## Intégration de CSS Externe :
 
 L'intégration de CSS externe permet d'appliquer des styles externes à votre site, comme les polices Google Fonts, améliorant l'apparence de votre site.
 
