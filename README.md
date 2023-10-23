@@ -3,8 +3,7 @@
 # Mise en Place d'un SEO Performant avec Nuxt
 
 ## Introduction
-L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité d'un site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt offre de nombreuses fonctionnalités et techniques pour améliorer le SEO. Dans cet article, j'expliquerai comment mettre en place un SEO performant avec Nuxt et les avantages et inconvénients de chaque méthode.
-
+L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité d'un site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt offre de nombreuses fonctionnalités et techniques pour améliorer le SEO.
 ## La Sitemap
 
 La Sitemap facilite l'exploration et l'indexation du site par les moteurs de recherche en fournissant une liste organisée des URL, y compris la date de dernière modification et la priorité d'indexation.
@@ -171,7 +170,7 @@ Dans cet exemple, j'active les polices Google Fonts en utilisant le composant `u
 
 - La première balise `link` avec `rel: 'preconnect'` établit une connexion préalable au serveur de polices pour améliorer la performance du chargement.
 - La deuxième balise `link` avec `rel: 'stylesheet'` charge les polices Google Fonts.
-- 
+
 L'attribut `crossorigin: ''` indique que le chargement est anonyme.
 
 L'intégration de CSS externe améliore la conception du site en lui ajoutant des styles externes tout en maintenant un bon niveau de performance.
