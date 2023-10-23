@@ -14,12 +14,12 @@ Table des matières
 *******
 <div id='intro'/>  
   
-# Introduction
+## Introduction
   
 L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité d'un site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt offre de nombreuses fonctionnalités et techniques pour améliorer le SEO.
 <div id='sitemap'/>  
   
-# La Sitemap
+## La Sitemap
 
 La Sitemap facilite l'exploration et l'indexation du site par les moteurs de recherche en fournissant une liste organisée des URL, y compris la date de dernière modification et la priorité d'indexation.
 
