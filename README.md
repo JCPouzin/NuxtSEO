@@ -6,7 +6,6 @@
 L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité de votre site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt.js offre de nombreuses fonctionnalités et techniques pour améliorer votre SEO. Dans cet article, nous expliquerons comment mettre en place un SEO performant avec Nuxt et les avantages et inconvénients de chaque méthode.
 
 ## La Sitemap
-**La Sitemap dans un Projet Nuxt pour un SEO Performant :**
 
 La Sitemap facilite l'exploration et l'indexation du site par les moteurs de recherche en fournissant une liste organisée des URL, y compris la date de dernière modification et la priorité d'indexation.
 
@@ -41,7 +40,7 @@ Dans cet exemple, nous utilisons Axios pour récupérer dynamiquement les donné
 
 Assurez-vous d'adapter ce code en fonction de votre propre structure de site et de la manière dont vous stockez vos URL. Le maintien à jour de cette Sitemap en cas de modifications fréquentes du contenu contribue à un SEO efficace.
 
-# **Métadonnées et Balises Meta dans un Projet Nuxt pour un SEO Performant :**
+# **Métadonnées et Balises Meta :**
 
 Les métadonnées et balises meta aident les moteurs de recherche à comprendre le contenu de chaque page et permettent de spécifier des informations telles que le titre et la description, améliorant ainsi la visibilité dans les résultats de recherche.
 
@@ -56,7 +55,7 @@ Les métadonnées et balises meta aident les moteurs de recherche à comprendre 
 export default {
   head() {
     return {
-      title: 'Titre de la page', // Spécifie le titre de la page
+      title: 'Titre de la page', // Spécifier le titre de la page
       meta: [
         { hid: 'description', name: 'description', content: 'Description de la page' },
         { name: 'keywords', content: 'mots-clés, SEO, Nuxt.js' }, // Exemple de balise de mots-clés
@@ -68,7 +67,6 @@ export default {
 };
 </script>
 ```
-
 Dans cet exemple, nous définissons le titre de la page et ajoutons des balises meta pour spécifier la description de la page, les mots-clés, l'auteur, et d'autres informations pertinentes. Chaque page nécessite une définition manuelle de ces métadonnées pour garantir un SEO optimal.
 
 Vous pouvez personnaliser ces balises en fonction du contenu de chaque page pour maximiser la pertinence et la visibilité dans les résultats de recherche.
