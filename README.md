@@ -4,12 +4,12 @@
 
 *******
 Table des matières
-  1. [ Introduction ] (#intro)
-  2. [La SiteMap] (#sitemap)
-  3. [Gestion des Méta-Tags] (#megatag)
-  4. [Données structurées] (#datastruc)
-  5. [Balise du corps] (#balise)
-  6. [Intégration de CSS externe] (#CssExterne)
+[Introduction] (#intro)
+[La SiteMap] (#sitemap)
+[Gestion des Méta-Tags] (#megatag)
+[Données structurées] (#datastruc)
+[Balise du corps] (#balise)
+[Intégration de CSS externe] (#CssExterne)
 
 *******
 <div id='intro'/>  
