@@ -4,7 +4,7 @@
 
 *******
 Table des matières
-  1. [Introduction] (#intro)
+  1. [ Introduction ] (#intro)
   2. [La SiteMap] (#sitemap)
   3. [Gestion des Méta-Tags] (#megatag)
   4. [Données structurées] (#datastruc)
