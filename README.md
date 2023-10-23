@@ -22,8 +22,8 @@ export default {
 }
 ```
 # Métadonnées et Balises Meta
-Aident les moteurs de recherche à comprendre le contenu de chaque page.
-Permettent de spécifier le titre, la description et d'autres informations importantes.
+Aident les moteurs de recherche à comprendre le contenu de chaque page.  
+Permettent de spécifier le titre, la description et d'autres informations importantes.  
 Doivent être définies manuellement pour chaque page.
 ```
 <template>
@@ -47,8 +47,8 @@ export default {
 </script>
 ```
 # Données Structurées
-Améliorent la compréhension du contenu par les moteurs de recherche.
-Peuvent entraîner l'affichage d'extraits enrichis dans les résultats de recherche.
+Améliorent la compréhension du contenu par les moteurs de recherche.  
+Peuvent entraîner l'affichage d'extraits enrichis dans les résultats de recherche.  
 Nécessite de définir des balises structurées supplémentaires.
 
 ```
@@ -77,8 +77,8 @@ export default {
 </script>
 ```
 # Utilisation de `titleTemplate` pour un Titre Dynamique
-Permet de personnaliser dynamiquement le titre de chaque page.
-Améliore la convivialité et la pertinence du titre.
+Permet de personnaliser dynamiquement le titre de chaque page.  
+Améliore la convivialité et la pertinence du titre.  
 Requiert une configuration personnalisée.
 ```
 <script setup>
@@ -98,8 +98,8 @@ export default {
 </script>
 ```
 # Balises du Corps
-Permet d'inclure des scripts et des balises à la fin du corps pour une meilleure performance de chargement.
-Utile pour les scripts tiers et le suivi.
+Permet d'inclure des scripts et des balises à la fin du corps pour une meilleure performance de chargement.  
+Utile pour les scripts tiers et le suivi.  
 Doit être utilisé avec précaution pour éviter des problèmes de performance.
 
 ```
