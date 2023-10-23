@@ -1,6 +1,6 @@
 # NuxtSEO
 
-### Mise en Place d'un SEO Performant avec Nuxt
+# Mise en Place d'un SEO Performant avec Nuxt
 
 ## Introduction
 L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité de votre site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt.js offre de nombreuses fonctionnalités et techniques pour améliorer votre SEO. Dans cet article, nous expliquerons comment mettre en place un SEO performant avec Nuxt et les avantages et inconvénients de chaque méthode.
