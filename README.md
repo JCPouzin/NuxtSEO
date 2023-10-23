@@ -6,8 +6,8 @@
 L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité de votre site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt.js offre de nombreuses fonctionnalités et techniques pour améliorer votre SEO. Dans cet article, nous expliquerons comment mettre en place un SEO performant avec Nuxt et les avantages et inconvénients de chaque méthode.
 
 ## La Sitemap
-Facilite la tâche des moteurs de recherche pour explorer et indexer votre site.
-Indique l'URL de chaque page, la date de dernière modification et la priorité d'indexation.
+Facilite la tâche des moteurs de recherche pour explorer et indexer votre site.  
+Indique l'URL de chaque page, la date de dernière modification et la priorité d'indexation.  
 Doit être maintenue à jour en cas de modifications fréquentes du contenu.
 
 ```
