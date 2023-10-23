@@ -40,7 +40,7 @@ Dans cet exemple, nous utilisons Axios pour récupérer dynamiquement les donné
 
 Assurez-vous d'adapter ce code en fonction de votre propre structure de site et de la manière dont vous stockez vos URL. Le maintien à jour de cette Sitemap en cas de modifications fréquentes du contenu contribue à un SEO efficace.
 
-# **Métadonnées et Balises Meta :**
+# Métadonnées et Balises Meta :
 
 Les métadonnées et balises meta aident les moteurs de recherche à comprendre le contenu de chaque page et permettent de spécifier des informations telles que le titre et la description, améliorant ainsi la visibilité dans les résultats de recherche.
 
@@ -71,10 +71,9 @@ Dans cet exemple, nous définissons le titre de la page et ajoutons des balises 
 
 Vous pouvez personnaliser ces balises en fonction du contenu de chaque page pour maximiser la pertinence et la visibilité dans les résultats de recherche.
 
-# Données Structurées
-Améliorent la compréhension du contenu par les moteurs de recherche.  
-Peuvent entraîner l'affichage d'extraits enrichis dans les résultats de recherche.  
-Nécessite de définir des balises structurées supplémentaires.
+# Données Structurées :
+
+Les données structurées améliorent la compréhension du contenu par les moteurs de recherche, ce qui peut entraîner l'affichage d'extraits enrichis dans les résultats de recherche, améliorant ainsi la visibilité.
 
 ```
 <script setup>
@@ -101,6 +100,10 @@ export default {
 };
 </script>
 ```
+Dans cet exemple, nous définissons des données structurées pour un événement en utilisant le format JSON-LD, qui suit le schéma de balisage de schema.org. Les données structurées aident les moteurs de recherche à comprendre que l'objet en question est un événement, avec des détails tels que le nom, la date de début et l'emplacement.
+
+Les données structurées peuvent également être utilisées pour d'autres types d'objets, tels que des produits, des recettes, des articles, etc. Chaque type d'objet aura des balises structurées spécifiques à définir. Cependant, il est important de noter que la définition de données structurées nécessite une connaissance préalable des schémas de balisage appropriés.
+
 # Utilisation de `titleTemplate` pour un Titre Dynamique
 Permet de personnaliser dynamiquement le titre de chaque page.  
 Améliore la convivialité et la pertinence du titre.  
