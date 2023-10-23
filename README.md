@@ -12,13 +12,11 @@ Table des matières
   6. [Intégration de CSS externe] (#CssExterne)
 
 *******
-
 <div id='intro'/>  
   
 # Introduction
   
 L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité d'un site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt offre de nombreuses fonctionnalités et techniques pour améliorer le SEO.
-
 <div id='sitemap'/>  
   
 # La Sitemap
