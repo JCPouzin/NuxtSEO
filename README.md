@@ -41,10 +41,10 @@ Dans cet exemple, nous utilisons Axios pour récupérer dynamiquement les donné
 
 Assurez-vous d'adapter ce code en fonction de votre propre structure de site et de la manière dont vous stockez vos URL. Le maintien à jour de cette Sitemap en cas de modifications fréquentes du contenu contribue à un SEO efficace.
 
-# Métadonnées et Balises Meta
-Aident les moteurs de recherche à comprendre le contenu de chaque page.  
-Permettent de spécifier le titre, la description et d'autres informations importantes.  
-Doivent être définies manuellement pour chaque page.
+# **Métadonnées et Balises Meta dans un Projet Nuxt pour un SEO Performant :**
+
+Les métadonnées et balises meta aident les moteurs de recherche à comprendre le contenu de chaque page et permettent de spécifier des informations telles que le titre et la description, améliorant ainsi la visibilité dans les résultats de recherche.
+
 ```
 <template>
   <div>
@@ -56,16 +56,23 @@ Doivent être définies manuellement pour chaque page.
 export default {
   head() {
     return {
-      title: 'Titre de la page',
+      title: 'Titre de la page', // Spécifie le titre de la page
       meta: [
         { hid: 'description', name: 'description', content: 'Description de la page' },
-        // Autres balises meta
+        { name: 'keywords', content: 'mots-clés, SEO, Nuxt.js' }, // Exemple de balise de mots-clés
+        { name: 'author', content: 'Votre nom' }, // Exemple de balise d'auteur
+        // Vous pouvez ajouter d'autres balises meta ici
       ],
     };
   },
 };
 </script>
 ```
+
+Dans cet exemple, nous définissons le titre de la page et ajoutons des balises meta pour spécifier la description de la page, les mots-clés, l'auteur, et d'autres informations pertinentes. Chaque page nécessite une définition manuelle de ces métadonnées pour garantir un SEO optimal.
+
+Vous pouvez personnaliser ces balises en fonction du contenu de chaque page pour maximiser la pertinence et la visibilité dans les résultats de recherche.
+
 # Données Structurées
 Améliorent la compréhension du contenu par les moteurs de recherche.  
 Peuvent entraîner l'affichage d'extraits enrichis dans les résultats de recherche.  
