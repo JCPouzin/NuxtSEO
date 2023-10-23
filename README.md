@@ -5,12 +5,12 @@
 # Table des Matières
 
 1. [Mise en Place d'un SEO Performant avec Nuxt](#mise-en-place-dun-seo-performant-avec-nuxt)
-   1.1 [Introduction](#introduction)
-   1.2 [La Sitemap](#la-sitemap)
-   1.3 [Gestion des Méta-Tags](#gestion-des-méta-tags)
-   1.4 [Données Structurées](#données-structurées)
-   1.5 [Balises du Corps](#balises-du-corps)
-   1.6 [Intégration de CSS Externe](#intégration-de-css-externe)
+   1.1 [Introduction](#introduction)  
+   1.2 [La Sitemap](#la-sitemap)  
+   1.3 [Gestion des Méta-Tags](#gestion-des-méta-tags)  
+   1.4 [Données Structurées](#données-structurées)  
+   1.5 [Balises du Corps](#balises-du-corps)  
+   1.6 [Intégration de CSS Externe](#intégration-de-css-externe)  
 
   
 ## Introduction
