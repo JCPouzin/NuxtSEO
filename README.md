@@ -2,17 +2,16 @@
 
 # Mise en Place d'un SEO Performant avec Nuxt
 
-*******
-Table des matières
-[Introduction] (intro)
-[La SiteMap] (sitemap)
-[Gestion des Méta-Tags] (megatag)
-[Données structurées] (datastruc)
-[Balise du corps] (balise)
-[Intégration de CSS externe] (CssExterne)
+# Table des Matières
 
-*******
-<div id='intro'/>  
+1. [Mise en Place d'un SEO Performant avec Nuxt](#mise-en-place-dun-seo-performant-avec-nuxt)
+   1.1 [Introduction](#introduction)
+   1.2 [La Sitemap](#la-sitemap)
+   1.3 [Gestion des Méta-Tags](#gestion-des-méta-tags)
+   1.4 [Données Structurées](#données-structurées)
+   1.5 [Balises du Corps](#balises-du-corps)
+   1.6 [Intégration de CSS Externe](#intégration-de-css-externe)
+
   
 ## Introduction
   
@@ -53,7 +52,6 @@ export default {
 Dans cet exemple, j'utilise Axios pour récupérer dynamiquement les données des pages de notre site depuis une API. J'ajoute ensuite la liste des URL en spécifiant des détails tels que la fréquence de changement, la priorité d'indexation et la date de dernière modification pour chaque page.
 Il faut s'assurer d'adapter ce code en fonction de la structure de site et de la manière dont est stocké les URL. La mise à jour de cette Sitemap en cas de modifications fréquentes du contenu contribue à un SEO efficace.
 
-<div id='megatag'/>  
 
 # Gestion des Méta-Tags 
 
@@ -81,7 +79,6 @@ export default {
 ```
 Dans cet exemple, je personalise dynamiquement le titre de la page et je définie des méta-tags tels que la description, les mots-clés et l'auteur pour améliorer le SEO et la visibilité dans les résultats de recherche. Chaque page nécessite une définition manuelle de ces méta-tags pour garantir un SEO optimal.
 
-<div id='datastruc'/> 
 
 # Données Structurées :
 
@@ -115,7 +112,6 @@ export default {
 Dans cet exemple, je définie des données structurées pour un événement en utilisant le format JSON-LD, qui suit le schéma de balisage de schema.org. Les données structurées aident les moteurs de recherche à comprendre que l'objet en question est un événement.
 Les données structurées peuvent également être utilisées pour d'autres types d'objets. Chaque type d'objet aura des balises structurées spécifiques à définir. Cependant, il est important de noter que la définition de données structurées nécessite une connaissance préalable des schémas de balisage appropriés.
 
-<div id='balise'/> 
 
 # Balises du Corps :
 
@@ -157,7 +153,6 @@ Dans cet exemple, j'utilise `tagPosition: 'bodyClose'` pour indiquer que le scri
 Cependant, il est essentiel d'utiliser cette technique avec précaution. Trop de scripts tiers ou mal placés peuvent entraîner des problèmes de performance, car ils peuvent bloquer le rendu de la page ou ralentir le chargement. Il est recommandé de ne charger que les scripts nécessaires et de s'assurer qu'ils sont correctement configurés pour ne pas perturber l'expérience de l'utilisateur.
 En utilisant ces techniques dans un projet Nuxt, vous pouvez optimiser votre SEO et améliorer la visibilité de votre site web dans les résultats de recherche.
 
-<div id='CssExterne'/> 
   
 # Intégration de CSS Externe :
 
