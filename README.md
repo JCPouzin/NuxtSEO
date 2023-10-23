@@ -7,7 +7,7 @@
    - [Introduction](#introduction)
    - [La Sitemap](#la-sitemap)
    - [Gestion des Méta-Tags](#gestion-des-méta-tags)
-   - [Données Structurées](#données-structurées-)
+   - [Données Structurées](#données-structurées)
    - [Balises du Corps](#balises-du-corps)
    - [Intégration de CSS Externe](#intégration-de-css-externe)
 
