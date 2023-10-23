@@ -6,21 +6,41 @@
 L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité de votre site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt.js offre de nombreuses fonctionnalités et techniques pour améliorer votre SEO. Dans cet article, nous expliquerons comment mettre en place un SEO performant avec Nuxt et les avantages et inconvénients de chaque méthode.
 
 ## La Sitemap
-Facilite la tâche des moteurs de recherche pour explorer et indexer votre site.  
-Indique l'URL de chaque page, la date de dernière modification et la priorité d'indexation.  
-Doit être maintenue à jour en cas de modifications fréquentes du contenu.
+**La Sitemap dans un Projet Nuxt pour un SEO Performant :**
+
+La Sitemap facilite l'exploration et l'indexation du site par les moteurs de recherche en fournissant une liste organisée des URL, y compris la date de dernière modification et la priorité d'indexation.
 
 ```
+//Pour utiliser axios dans votre projet : https://www.the-koi.com/projects/nuxt-3-how-to-use-axios/
+
 export default {
   sitemap: {
-    path: '/sitemap.xml',
-    hostname: 'https://www.votresite.com',
+    path: '/sitemap.xml', // Chemin où sera généré le fichier sitemap.xml
+    hostname: 'https://www.votresite.com', // URL de base de votre site
     routes() {
-      // Générez ici la liste de toutes les URL de votre site
+      // Générez dynamiquement la liste des URL de votre site
+      return axios.get('https://api.votresite.com/pages') // Exemple d'appel API
+        .then((response) => {
+          const pages = response.data;
+          return pages.map((page) => ({
+            url: page.url,
+            changefreq: 'daily', // Fréquence de changement de la page
+            priority: 0.7, // Priorité d'indexation (entre 0 et 1)
+            lastmodISO: page.lastModified, // Date de dernière modification
+          }));
+        })
+        .catch((error) => {
+          console.error('Erreur lors de la récupération des URL :', error);
+        });
     },
   },
 }
 ```
+
+Dans cet exemple, nous utilisons Axios pour récupérer dynamiquement les données des pages de notre site depuis une API. Nous générons ensuite la liste des URL en spécifiant des détails tels que la fréquence de changement, la priorité d'indexation et la date de dernière modification pour chaque page.
+
+Assurez-vous d'adapter ce code en fonction de votre propre structure de site et de la manière dont vous stockez vos URL. Le maintien à jour de cette Sitemap en cas de modifications fréquentes du contenu contribue à un SEO efficace.
+
 # Métadonnées et Balises Meta
 Aident les moteurs de recherche à comprendre le contenu de chaque page.  
 Permettent de spécifier le titre, la description et d'autres informations importantes.  
