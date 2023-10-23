@@ -3,22 +3,22 @@
 # Mise en Place d'un SEO Performant avec Nuxt
 
 ## Introduction
-L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité d'un site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt offre de nombreuses fonctionnalités et techniques pour améliorer votre SEO. Dans cet article, nous expliquerons comment mettre en place un SEO performant avec Nuxt et les avantages et inconvénients de chaque méthode.
+L'optimisation pour les moteurs de recherche (SEO) est essentielle pour maximiser la visibilité d'un site web dans les résultats des moteurs de recherche. L'utilisation du framework Nuxt offre de nombreuses fonctionnalités et techniques pour améliorer le SEO. Dans cet article, j'expliquerai comment mettre en place un SEO performant avec Nuxt et les avantages et inconvénients de chaque méthode.
 
 ## La Sitemap
 
 La Sitemap facilite l'exploration et l'indexation du site par les moteurs de recherche en fournissant une liste organisée des URL, y compris la date de dernière modification et la priorité d'indexation.
 
 ```
-//Pour utiliser axios dans votre projet :https://github.com/axios/axios,  https://www.the-koi.com/projects/nuxt-3-how-to-use-axios/
+//Pour utiliser axios dans le projet :https://github.com/axios/axios,  https://www.the-koi.com/projects/nuxt-3-how-to-use-axios/
 
 export default {
   sitemap: {
     path: '/sitemap.xml', // Chemin où sera généré le fichier sitemap.xml
-    hostname: 'https://www.votresite.com', // URL de base du site
+    hostname: 'https://www.site.com', // URL de base du site
     routes() {
       // Générer dynamiquement la liste des URL du site
-      return axios.get('https://api.votresite.com/pages') // Exemple d'appel API
+      return axios.get('https://api.vsite.com/pages') // Exemple d'appel API
         .then((response) => {
           const pages = response.data;
           return pages.map((page) => ({
